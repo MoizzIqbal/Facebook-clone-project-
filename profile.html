@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/21ace0f84f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="logo2.png" class="logo" >
+        </a>
+            <ul>
+                <li> <img src="notification.png"></li>
+                <li><img src="inbox.png"></li>
+                <li><img src="video.png"></li>
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="moiz.png">
+            </div>
+        </div>
+        <!-- Settings- menu  -->
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="moiz.png">
+                    <div>
+                        <p>Moiz Iqbal</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="arrow.png"  width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow.png"  width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png"  width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="arrow.png"  width="10px" alt=""></a>
+                </div>
+
+
+
+
+            </div>
+            
+        </div>
+    </nav>
+    <!------- profile page ------->
+    <div class="profile-container">
+        <img src="cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="moiz.png" class="pd-image">
+                    <div>
+                        <h3>Moiz Iqbal</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="member-1.png">
+                        <img src="member-2.png">
+                        <img src="member-3.png">
+                        <img src="member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="add-friends.png"> Friend</button>
+                <button type="button"><img src="message.png" > Message</button>
+                <br>
+                <a href="#"><img src="more.png" alt=""></a>
+
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do eunbelieveble thing. <img src="feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="profile-job.png"> Director at city42 ltd</li>
+                        <li> <img src="profile-study.png"> Studied at Virtual University</li>
+                        <li><img src="profile-study.png">Want to become developer</li>
+                        <li><img src="profile-home.png">Live in Lahore, Pakistan</li>
+                        <li><img src="profile-location.png">From Lahore, Pakistan</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="photo1.png" ></div>
+                        <div><img src="photo2.png" ></div>
+                        <div><img src="photo3.png" ></div>
+                        <div><img src="photo4.png" ></div>
+                        <div><img src="photo5.png" ></div>
+                        <div><img src="photo6.png" ></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="member-1.png" ><p>Isra</p></div>
+                        <div><img src="member-2.png" ><p>Nouman</p></div>
+                        <div><img src="member-3.png" ><p>Hamza</p></div>
+                        <div><img src="member-4.png" ><p>Asad</p></div>
+                        <div><img src="moiz-5.png" ><p>Moiz</p></div>
+                        <div><img src="member-6.png" ><p>Sara</p></div>
+                        <div><img src="member-7.png" ><p>Abdullah</p></div>
+                        <div><img src="member-8.png" ><p>Ayesha</p></div>
+                        <div><img src="member-9.png" ><p>Huzaifa</p></div>
+                    </div>
+                </div>
+
+                
+
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="moiz.png">
+                        <div>
+                            <p>Moiz Iqbal</p>
+                            <small>Public <i class="fa-sharp fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What,s on your mind john"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="live-video.png">Live Video</a>
+                            <a href="#"><img src="photo.png">Photo/Video</a>
+                            <a href="#"><img src="feeling.png">Feling/Activity</a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="moiz.png">
+                            <div>
+                                <p>Moiz Iqbal</p>
+                                <span>June 24 202, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Subscribe <span>@easy tutorials</span> youtube channel to watch more videos on web development and UI design <a href="#">#EasyTutorials</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="feed-image-1.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png" >120</div>
+                            <div><img src="comments.png" >45</div>
+                            <div><img src="share.png" >20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="moiz.png"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="moiz.png">
+                            <div>
+                                <p>Moiz Iqbal</p>
+                                <span>June 24 202, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, amet. <span>@easy tutorials</span> Lorem ipsum  adipisicing elit. Unde, consequatur. <a href="#">#EasyTutorials</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="feed-image-2.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png" >120</div>
+                            <div><img src="comments.png" >45</div>
+                            <div><img src="share.png" >20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="moiz.png"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="moiz.png">
+                            <div>
+                                <p>Moiz Iqbal</p>
+                                <span>June 24 202, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Subscribe <span>@easy tutorials</span> youtube channel to watch more videos on web development and UI design <a href="#">#EasyTutorials</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="feed-image-3.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png" >120</div>
+                            <div><img src="comments.png" >45</div>
+                            <div><img src="share.png" >20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="moiz.png"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="moiz.png">
+                            <div>
+                                <p>Moiz Iqbal</p>
+                                <span>June 24 202, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Subscribe <span>@easy tutorials</span> youtube channel to watch more videos on web development and UI design <a href="#">#EasyTutorials</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="feed-image-4.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png" >120</div>
+                            <div><img src="comments.png" >45</div>
+                            <div><img src="share.png" >20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="moiz.png"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="moiz.png">
+                            <div>
+                                <p>Moiz Iqbal</p>
+                                <span>June 24 202, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Subscribe <span>@easy tutorials</span> youtube channel to watch more videos on web development and UI design <a href="#">#EasyTutorials</a> <a href="#">#YoutubeChannel</a></p>
+                    <img src="feed-image-5.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png" >120</div>
+                            <div><img src="comments.png" >45</div>
+                            <div><img src="share.png" >20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="moiz.png"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <!------- footer ------>
+    <div class="footer">Copyright 2023 - practice Website</div>
+<script src="script.js"></script>
+</body>
+
+</html>
